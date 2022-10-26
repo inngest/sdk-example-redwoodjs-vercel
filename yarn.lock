@@ -14071,8 +14071,8 @@ __metadata:
   linkType: hard
 
 "inngest@npm:redwood":
-  version: 0.6.1-redwood.1
-  resolution: "inngest@npm:0.6.1-redwood.1"
+  version: 0.6.1-redwood.2
+  resolution: "inngest@npm:0.6.1-redwood.2"
   dependencies:
     buffer: ^6.0.3
     cross-fetch: ^3.1.5
@@ -14080,7 +14080,7 @@ __metadata:
     zod: ^3.19.1
   bin:
     inngest-init: init.js
-  checksum: dfab08aee412c73252dbcb4c46895d575018d5c722461623b6dc579fbe527898182a92b0f301f55667eb4d53fc388e3a71ab1c110e6f178e1f32e428d11c10c5
+  checksum: 5b01f53a31c78506cc203da26c66cc9b7a398a6e181499bad86ae031e5063a4b600662a3caec21160eb7e3359a4ce23751cdffe84287d975a58da2fcc7c33224
   languageName: node
   linkType: hard
 
