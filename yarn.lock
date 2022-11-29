@@ -7345,7 +7345,7 @@ __metadata:
   dependencies:
     "@redwoodjs/api": 3.2.0
     "@redwoodjs/graphql-server": 3.2.0
-    inngest: redwood
+    inngest: ^0.8.2
   languageName: unknown
   linkType: soft
 
@@ -13450,7 +13450,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hash.js@npm:^1.0.0, hash.js@npm:^1.0.3":
+"hash.js@npm:^1.0.0, hash.js@npm:^1.0.3, hash.js@npm:^1.1.7":
   version: 1.1.7
   resolution: "hash.js@npm:1.1.7"
   dependencies:
@@ -14070,17 +14070,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"inngest@npm:redwood":
-  version: 0.6.1-redwood.2
-  resolution: "inngest@npm:0.6.1-redwood.2"
+"inngest@npm:^0.8.2":
+  version: 0.8.2
+  resolution: "inngest@npm:0.8.2"
   dependencies:
     buffer: ^6.0.3
     cross-fetch: ^3.1.5
-    sha.js: ^2.4.11
+    hash.js: ^1.1.7
+    ms: ^2.1.3
+    sigmund: ^1.0.1
     zod: ^3.19.1
   bin:
     inngest-init: init.js
-  checksum: 5b01f53a31c78506cc203da26c66cc9b7a398a6e181499bad86ae031e5063a4b600662a3caec21160eb7e3359a4ce23751cdffe84287d975a58da2fcc7c33224
+  checksum: b98802aa52f36a94595ccb86125e03951b4dd55b8cef1690bf81dbf1229829203dfa1ab45bdbb67901219715ad449f8b6bddfe7ba468f4357bbf24f6513a2f45
   languageName: node
   linkType: hard
 
@@ -17049,7 +17051,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ms@npm:2.1.3, ms@npm:^2.0.0, ms@npm:^2.1.1":
+"ms@npm:2.1.3, ms@npm:^2.0.0, ms@npm:^2.1.1, ms@npm:^2.1.3":
   version: 2.1.3
   resolution: "ms@npm:2.1.3"
   checksum: d924b57e7312b3b63ad21fc5b3dc0af5e78d61a1fc7cfb5457edaf26326bf62be5307cc87ffb6862ef1c2b33b0233cdb5d4f01c4c958cc0d660948b65a287a48
@@ -20696,7 +20698,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sha.js@npm:^2.4.0, sha.js@npm:^2.4.11, sha.js@npm:^2.4.8":
+"sha.js@npm:^2.4.0, sha.js@npm:^2.4.8":
   version: 2.4.11
   resolution: "sha.js@npm:2.4.11"
   dependencies:
@@ -20778,6 +20780,13 @@ __metadata:
     get-intrinsic: ^1.0.2
     object-inspect: ^1.9.0
   checksum: 054a5d23ee35054b2c4609b9fd2a0587760737782b5d765a9c7852264710cc39c6dcb56a9bbd6c12cd84071648aea3edb2359d2f6e560677eedadce511ac1da5
+  languageName: node
+  linkType: hard
+
+"sigmund@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "sigmund@npm:1.0.1"
+  checksum: 0cc9cf0acf4ee1e29bc324ec60b81865c30c4cf6738c6677646b101df1b1b1663759106d96de4199648e5fff3d1d2468ba06ec437cfcef16ee8ff19133fcbb9d
   languageName: node
   linkType: hard
 
