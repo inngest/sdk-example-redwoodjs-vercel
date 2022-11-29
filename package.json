@@ -1,5 +1,9 @@
 {
   "private": true,
+  "scripts": {
+    "build": "rw build",
+    "dev": "rw dev"
+  },
   "workspaces": {
     "packages": [
       "api",
