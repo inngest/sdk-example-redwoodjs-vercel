@@ -1,5 +1,5 @@
 import { serve } from 'inngest/redwood'
 
-import helloWorld from 'src/inngest/helloWorld'
+import fns from 'src/inngest'
 
-export const handler = serve('My RedwoodJS App', [helloWorld])
+export const handler = serve('My RedwoodJS App', fns)
