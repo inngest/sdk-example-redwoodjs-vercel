@@ -2,7 +2,9 @@
   "private": true,
   "scripts": {
     "build": "rw build",
-    "dev": "rw dev"
+    "dev": "concurrently --raw \"yarn:dev:*\"",
+    "dev:rw": "rw dev",
+    "dev:inngest": "npx --yes inngest-cli@latest dev"
   },
   "workspaces": {
     "packages": [
@@ -12,7 +14,8 @@
     ]
   },
   "devDependencies": {
-    "@redwoodjs/core": "3.2.0"
+    "@redwoodjs/core": "3.2.0",
+    "concurrently": "7.6.0"
   },
   "eslintConfig": {
     "extends": "@redwoodjs/eslint-config",

@@ -5,6 +5,6 @@
   "dependencies": {
     "@redwoodjs/api": "3.2.0",
     "@redwoodjs/graphql-server": "3.2.0",
-    "inngest": "^0.8.2"
+    "inngest": "0.8.4"
   }
 }
