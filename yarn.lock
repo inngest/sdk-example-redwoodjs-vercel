@@ -1816,6 +1816,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/runtime-corejs3@npm:7.19.4":
+  version: 7.19.4
+  resolution: "@babel/runtime-corejs3@npm:7.19.4"
+  dependencies:
+    core-js-pure: ^3.25.1
+    regenerator-runtime: ^0.13.4
+  checksum: 01b55c54c4b649d4897f873982ee0097b1f9d597b62a97491c5ca4b0e659bf9576914d00b2cd6d140f19497a8f5ace6efdb958eff123ffa499c422f338946deb
+  languageName: node
+  linkType: hard
+
 "@babel/runtime-corejs3@npm:^7.10.2":
   version: 7.19.6
   resolution: "@babel/runtime-corejs3@npm:7.19.6"
@@ -3810,6 +3820,47 @@ __metadata:
     rwfw: dist/bins/rwfw.js
     tsc: dist/bins/tsc.js
   checksum: 879690cc1c9f5729cfac25003c1c9336d54a191b413efeb68e7afc1be465348ea4e36158b365010592bdc85b9784a70466ede093e74497c3fdfb5ff76d16c1c6
+  languageName: node
+  linkType: hard
+
+"@redwoodjs/api@npm:3.3.1":
+  version: 3.3.1
+  resolution: "@redwoodjs/api@npm:3.3.1"
+  dependencies:
+    "@babel/runtime-corejs3": 7.19.4
+    "@prisma/client": 4.3.1
+    base64url: 3.0.1
+    core-js: 3.25.5
+    cross-undici-fetch: 0.4.14
+    crypto-js: 4.1.1
+    humanize-string: 2.1.0
+    jsonwebtoken: 8.5.1
+    jwks-rsa: 2.0.5
+    md5: 2.3.0
+    pascalcase: 1.0.0
+    pino: 8.6.1
+    title-case: 3.0.3
+    uuid: 9.0.0
+  peerDependencies:
+    "@clerk/clerk-sdk-node": 3.9.2
+    "@magic-sdk/admin": 1.4.1
+    "@okta/jwt-verifier": 2.6.0
+    firebase-admin: 10.3.0
+  peerDependenciesMeta:
+    "@clerk/clerk-sdk-node":
+      optional: true
+    "@magic-sdk/admin":
+      optional: true
+    "@okta/jwt-verifier":
+      optional: true
+    firebase-admin:
+      optional: true
+  bin:
+    redwood: dist/bins/redwood.js
+    rw: dist/bins/redwood.js
+    rwfw: dist/bins/rwfw.js
+    tsc: dist/bins/tsc.js
+  checksum: 3c328e3107230df685dd16fe1c7bdfdc719d66047b343213a5270c041df4266b48fc943f1b9708fbaee4178283fac414b51e451041f2a0588569081d6a27a17a
   languageName: node
   linkType: hard
 
@@ -7343,7 +7394,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "api@workspace:api"
   dependencies:
-    "@redwoodjs/api": 3.2.0
+    "@redwoodjs/api": 3.3.1
     "@redwoodjs/graphql-server": 3.2.0
     inngest: 0.8.7
   languageName: unknown
