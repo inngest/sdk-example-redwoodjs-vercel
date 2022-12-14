@@ -7345,7 +7345,7 @@ __metadata:
   dependencies:
     "@redwoodjs/api": 3.2.0
     "@redwoodjs/graphql-server": 3.2.0
-    inngest: 0.8.4
+    inngest: 0.8.7
   languageName: unknown
   linkType: soft
 
@@ -14090,9 +14090,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"inngest@npm:0.8.4":
-  version: 0.8.4
-  resolution: "inngest@npm:0.8.4"
+"inngest@npm:0.8.7":
+  version: 0.8.7
+  resolution: "inngest@npm:0.8.7"
   dependencies:
     buffer: ^6.0.3
     cross-fetch: ^3.1.5
@@ -14102,7 +14102,7 @@ __metadata:
     zod: ^3.19.1
   bin:
     inngest-init: init.js
-  checksum: 17231e5792b37b1504467c30a5817f3bed28817189723f5277e915e6faf18e9671f6397b512274d2f4c24f198a4c74058382771a8065790afbd2160156bbd06a
+  checksum: 241ce2a8f0f66553eb5a69e2bb1e57027b89d7829e6b66921c098f25ea00642118e114ae1a6e333367437d4fdc7107c5c8a395e3df5eb015b7ac3deae473ecd9
   languageName: node
   linkType: hard
 
@@ -24100,9 +24100,9 @@ __metadata:
   linkType: hard
 
 "zod@npm:^3.19.1":
-  version: 3.19.1
-  resolution: "zod@npm:3.19.1"
-  checksum: e08197793f26916f8abea40687fc968b2de0471049b29b7ff25825a9f28ba24205d1c5b8ad26df17538b051928192f9ef8f9ef3132aece9cb56f0830a7450c26
+  version: 3.20.2
+  resolution: "zod@npm:3.20.2"
+  checksum: 127e3f153401d3d39bad446bf095f609ce15e76244995fc0524936740976c2e2ea4285f2d11b9ae5511f00021443c92acf746f0239852c6d68838df6de9a9541
   languageName: node
   linkType: hard
 

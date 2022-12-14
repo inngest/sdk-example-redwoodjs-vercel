@@ -1,4 +1,4 @@
-# Inngest Redwood.js + Vercel Template (Alpha)
+# Inngest RedwoodJS + Vercel Template
 
 This is a [RedwoodJS](https://redwoodjs.com) project bootstrapped with [`create-redwood-app`](https://www.npmjs.com/package/create-redwood-app). It is a reference on how to send and receive events with Inngest, RedwoodJS, and Vercel.
 
@@ -8,10 +8,10 @@ This is a [RedwoodJS](https://redwoodjs.com) project bootstrapped with [`create-
 
 ```
 yarn
-yarn rw dev
+yarn dev
 ```
 
-Open http://localhost:8911/inngest with your browser to see the Inngest SDK UI.
+Open http://localhost:8288 with your browser to see the Inngest dev server UI.
 
 - [Inngest functions](https://www.inngest.com/docs/functions) are available at [`api/src/inngest/`](api/src/inngest/)
 - The Inngest handler is available at [`api/src/functions/inngest.ts`](api/src/functions/inngest.ts)
