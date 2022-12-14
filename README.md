@@ -1,4 +1,4 @@
-# Inngest Redwood.js + Vercel Template (Alpha)
+# Inngest Redwood.js + Vercel Template
 
 This is a [RedwoodJS](https://redwoodjs.com) project bootstrapped with [`create-redwood-app`](https://www.npmjs.com/package/create-redwood-app). It is a reference on how to send and receive events with Inngest, RedwoodJS, and Vercel.
 

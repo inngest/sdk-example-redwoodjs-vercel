@@ -1,3 +1,6 @@
-import helloWorld from './helloWorld'
+import cachePurge from './fns/cachePurge'
+import helloWorld from './fns/helloWorld'
+import onboarding from './fns/onboarding'
+import upsertUserFeed from './fns/upsertUserFeed'
 
-export default [helloWorld]
+export const fns = [helloWorld, upsertUserFeed, onboarding, cachePurge]
